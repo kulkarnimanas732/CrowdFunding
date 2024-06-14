@@ -1,0 +1,35 @@
+.center {
+    margin: 0 auto;
+    width: 100%; /* Adjust the width as per your requirement */
+    height: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100px; /* Adjust this value according to your header height */
+    bottom: 0;
+    width: 100%;
+    overflow-y: auto; /* Add scrollbar if content overflows vertically */
+  }
+  .dashboard-container {
+    width: 100%;
+  }
+
+ 
